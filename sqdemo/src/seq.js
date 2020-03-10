@@ -5,6 +5,12 @@ const conf = {
   dialect: "mysql"
 };
 
+// conf.pool = {
+//   max: 5,
+//   min: 0,
+//   idle: 10000
+// };
+
 const seq = new Sequelize("koa2_weibo_db", "root", "123456", conf);
 
 // seq
